@@ -1,0 +1,49 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto+Mono:wght@200&display=swap');
+
+ form {
+   display: flex;
+   justify-content: center;
+ }
+
+ h1 {
+   margin: 10px;
+   font-family: 'Roboto Mono', monospace;
+   text-align: center;
+ }
+
+ p {
+   font-family: 'Roboto Mono', monospace;
+   text-align: center;
+ }
+ // Defining a variable
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray;
+   text-align: center; // Using this variable
+ }
+
+  .banner {
+   background: red;
+   h1 {
+     font-size: 50px;
+   }
+ }
+
+  a {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
+
+ .conversation {
+   margin: 0 auto;
+   background-color: white;
+   border-left: 4px solid gray;
+   width: 400px;
+ }
+
+ #coach {
+   background-color: rgb(255,255,225);
+ }
